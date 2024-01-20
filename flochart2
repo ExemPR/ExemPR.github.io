@@ -1,38 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T19:49:43.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VQH7qT2U2RzurwPz55SX" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-20T20:49:35.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mDsV75H1HxtuFmpiHZw6" version="22.1.21" type="github">
   <diagram name="Página-1" id="xA5FP43QpRU1bjgBegUL">
     <mxGraphModel dx="536" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-2" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="10" y="200" width="100" height="60" as="geometry" />
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-2" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-3" target="cVYbjV5xH2JGc-2WjZKR-4">
+        <mxCell id="ezCUSWskvSDt4eC55gaN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-3" target="cVYbjV5xH2JGc-2WjZKR-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-3" value="Entrada&amp;nbsp;&lt;br&gt;de Radio" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="90" y="260" width="90" height="80" as="geometry" />
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-3" value="Solicitar valor del radio del circulo" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-4" value="Calculo&lt;br&gt;de&amp;nbsp;&lt;br&gt;Area" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="180" y="360" width="80" height="70" as="geometry" />
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-4" value="Calcular area usando formula AreaC=&lt;span style=&quot;border: 0px solid currentcolor; box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-family: KaTeX_Math; font-style: italic; margin-right: 0.03588em;&quot; class=&quot;mord mathnormal&quot;&gt;π * radio(2)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="200" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-4" target="cVYbjV5xH2JGc-2WjZKR-4">
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cVYbjV5xH2JGc-2WjZKR-4" target="cVYbjV5xH2JGc-2WjZKR-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-6" value="Salida&amp;nbsp;&lt;br&gt;del&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Resultado" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="230" y="450" width="100" height="60" as="geometry" />
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-6" value="Mostrar Resultado de calculo de area" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="200" y="420" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-7" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="300" y="525" width="100" height="60" as="geometry" />
+        <mxCell id="cVYbjV5xH2JGc-2WjZKR-7" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="170" y="520" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.582;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-2" target="cVYbjV5xH2JGc-2WjZKR-3">
+        <mxCell id="ezCUSWskvSDt4eC55gaN-1" value="Guardar&amp;nbsp;&lt;br&gt;resultado&amp;nbsp;&lt;br&gt;en variable &#39;AreaC&#39;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ezCUSWskvSDt4eC55gaN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.53;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-2" target="cVYbjV5xH2JGc-2WjZKR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.612;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-4" target="cVYbjV5xH2JGc-2WjZKR-6">
+        <mxCell id="ezCUSWskvSDt4eC55gaN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-6" target="cVYbjV5xH2JGc-2WjZKR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cVYbjV5xH2JGc-2WjZKR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.608;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-6" target="cVYbjV5xH2JGc-2WjZKR-7">
+        <mxCell id="ezCUSWskvSDt4eC55gaN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.608;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cVYbjV5xH2JGc-2WjZKR-4" target="ezCUSWskvSDt4eC55gaN-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezCUSWskvSDt4eC55gaN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ezCUSWskvSDt4eC55gaN-1" target="cVYbjV5xH2JGc-2WjZKR-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="350" />
+              <mxPoint x="280" y="400" />
+              <mxPoint x="275" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
